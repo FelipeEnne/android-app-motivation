@@ -23,6 +23,7 @@
         android:id="@+id/edit_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:hint="@string/your_name"
         android:gravity="center_horizontal"
         android:layout_centerInParent="true"

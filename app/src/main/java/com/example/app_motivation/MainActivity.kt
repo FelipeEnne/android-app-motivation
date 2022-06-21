@@ -19,8 +19,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         binding.buttonNewPhrase.setOnClickListener(this)
     }
 
-    override fun onClick(view: View?) {
-        if(view?.id === R.id.button_new_phrase){
+    override fun onClick(view: View) {
+        if(view.id === R.id.button_new_phrase){
             var s = ""
         }
     }
