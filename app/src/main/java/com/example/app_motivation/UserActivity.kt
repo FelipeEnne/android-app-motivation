@@ -32,6 +32,8 @@ class UserActivity : AppCompatActivity(), View.OnClickListener {
     private fun handleSave() {
         val name = binding.editName.text.toString()
         if (name != "") {
+            SecurityPreferences(this).storeString("USER_NAME", name)
+
             startActivity(Intent(this, MainActivity::class.java))
         } else {
             Toast.makeText(this, R.string.validation_mandatory_name, Toast.LENGTH_SHORT).show()

@@ -34,16 +34,18 @@
             android:layout_width="0dp"
             android:layout_height="40dp" />
     </LinearLayout>
+
     <TextView
-        android:text="Hi"
+        android:id="@+id/text_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_menu"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="32dp"
-        android:layout_below="@id/linear_menu"
-        android:layout_width="wrap_content"
         android:fontFamily="@font/cambo"
-        android:textSize="18sp"
+        android:text="Hi"
         android:textColor="@color/black"
-        android:layout_height="wrap_content"/>
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/text_phrase"
